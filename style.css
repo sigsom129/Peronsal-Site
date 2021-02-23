@@ -180,3 +180,18 @@ body {
     line-height: 30px;
     letter-spacing: 1.2px;
 }
+
+
+
+
+/* Footer */
+.footer{
+    background: #fafafa;
+    min-height: 50px;
+    text-align: left;
+    color: #b1b1b1;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
