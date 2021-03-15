@@ -173,7 +173,8 @@ body {
 
 
 #resume {  
-    align-items: center;
+    /* text-align: center; */
+    position: relative;
     background-color: #ddd;
     height: auto;
     margin-top: -30px;
@@ -183,6 +184,10 @@ body {
     -webkit-font-smoothing: antialiased;
   }
   
+/* #resume .inner {
+    width:700px;
+} */
+
 .skill {
     border: 1px solid #50a9d1;
     margin-right: 10px;
@@ -214,5 +219,19 @@ body {
 
   }
 
+/* #resume .inner {
+ padding-left: 500px ;
+} */
 
+.section-tagline {
 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #CEC8C8;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
