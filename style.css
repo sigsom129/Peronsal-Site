@@ -234,9 +234,9 @@ img.icon {
   background-color: #fff;
   opacity: 0.8;
   z-index: 0;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);   /*For Webkit browsers */
-  filter: gray;  /* For IE 6 - 9 */
+  /* filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);   For Webkit browsers
+  filter: gray;  For IE 6 - 9 */
 
 }
 
