@@ -168,9 +168,14 @@ body {
 /*  */
 /*  */
 
+/* TODO: FIX TAGLINE/Section TAG-LINE */
 
-
-
+/* Center the Resume  */
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+    
 #resume {  
     /* text-align: center; */
     position: relative;
@@ -181,15 +186,56 @@ body {
     font-size: 19px;
     line-height: 34px;
     -webkit-font-smoothing: antialiased;
-  }
+}
   
 
+/* TAGLINE */
+.tagline {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.section-tagline {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 0.3em;
+font-weight: 700;
+padding-bottom: 20px;
+margin-bottom: 40px;
+border-bottom: 1px solid #CEC8C8;
+font-size: 11px;
+text-transform: uppercase;
+}
+
+/* IMAGE ICON  */
+/* ============================================================ */
+img.icon {
+  width: 65px;
+  height: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius:50%;
+  float: left;
+  display: block;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);   /*For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+}
 
 
-/* .inner {
-max-width: 1024px;
-margin: 0 auto;
-} */
 
 
 .skill {
@@ -219,6 +265,9 @@ margin: 0 auto;
     padding-top: 20px;
     font-size: 12px;
     line-height: 20px;
-    margin-left: 10px;
+
 
   }
+
+
+  
